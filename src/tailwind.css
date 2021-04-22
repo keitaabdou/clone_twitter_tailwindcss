@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+      .fab{
+          color:white;
+          font-size: 300px;
+         
+      }
+      .icon{
+        font-size: 40px !important;
+        color:white !important;  
+        color:#d9d9d9 !important;
+      }
+      .texte-h1{
+        font-size:64px;
+        line-height:84px;
+      }
+      .text-p{
+        font-size:31px;
+        line-height:36px;
+      }
+      .bg-btn{
+        background-color:#1da1f2
+      }
+      .bg-btn:hover{
+        background-color:rgb(26, 145, 218)
+      }
+      .text-btn{
+        border: 1px solid rgb(23,126,189);
+        color:#1da1f2 !important;
+        
+      }
+      .text-btn:hover{
+        background-color: #1c293b;
+        
+        
+      }
+      .container{
+        color:#6e767d !important;
+        font-size: 13px !important;
+        line-height:16px !important;
+        font-family: "segoe UI" !important;
+      }
+      
+    }
+  }
